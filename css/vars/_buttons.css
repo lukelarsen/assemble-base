@@ -29,9 +29,9 @@ $btn-padding:                       0.7em; /* can be a single or multiple value 
 $btn-default-font-size:             100%;
 
 /* The size of the button border.
-   Is only used if border-color in the button color map is selected.
+   Is only used if border-color is used.
    @type number */
-$btn-border-size:                   1px;  /* Is only used if  border-color is set in the color map below */
+$btn-border-size:                   0px;
 
 /* The background color of a disabled button.
    Is only used if $btn-disabled is true.
