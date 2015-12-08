@@ -1,0 +1,87 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  DESIGN VARIABLES
+ *  MODIFIER VARIABLES
+        Button Sizes
+        Button Types
+        Button Colors
+ */
+
+
+
+
+/*------------------------------------*\
+    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/* How quickly do the buttons sizes scale
+   @type number */
+$btn-size-ratio:                    1.2;
+
+/* Button padding. Can have single or multiple values
+   @type number */
+$btn-padding:                       0.7em; /* can be a single or multiple value */
+
+/* The default button font size
+   @type number */
+$btn-default-font-size:             100%;
+
+/* The size of the button border.
+   Is only used if border-color in the button color map is selected.
+   @type number */
+$btn-border-size:                   1px;  /* Is only used if  border-color is set in the color map below */
+
+/* The background color of a disabled button.
+   Is only used if $btn-disabled is true.
+   @type color */
+$btn-disabled-bg-color:                   #DDD;  /* Is only used if a border is turned on when setting button colors. */
+
+/* The text color of a disabled button.
+   Is only used if $btn-disabled is true.
+   @type color */
+$btn-disabled-text-color:                 #777;  /* Is only used if  border-color is set in the color map below */
+
+
+
+
+
+
+
+/*------------------------------------*\
+    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Button Sizes
+ */
+
+/* Turn on/off large buttons for your application
+   @type boolean */
+$btn--large:                        true;
+
+/* Turn on/off small buttons for your application
+   @type boolean */
+$btn--small:                        false;
+
+/* Turn on/off block buttons for your application
+   @type boolean */
+$btn--block:                        false;
+
+
+/**
+ * ^Button Types
+ */
+
+/* Turn on/off natural buttons for your application
+   @type boolean */
+$btn--natural:                      false;
+
+/* Turn on/off disabled buttons for your application
+   @type boolean */
+$btn--disabled:                     false;
+
+/* Turn on/off group buttons for your application
+   @type boolean */
+$btn-group:                         false;

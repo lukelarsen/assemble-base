@@ -1,0 +1,51 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  DESIGN VARIABLES
+        Overlay
+        Modal Inner
+        Modal Close
+ */
+
+
+
+
+
+/*------------------------------------*\
+    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Overlay
+ */
+
+/* Set the overlay color for your modals.
+   @type color */
+$modal-overlay-color:    rgba(0, 0, 0, 0.6);
+
+
+/**
+ * ^Modal Inner
+ */
+
+/* Set the inner padding for your modals.
+   @type number */
+$modal-inner-padding:              15px;
+
+/* Set the inner background color for your modals.
+   @type color */
+$modal-inner-background-color:     #FFF;
+
+
+/**
+ * ^Modal Close
+ */
+
+/* Set the background color of your modal close icon.
+   @type color */
+$modal-close-background-color:      #000;
+
+/* Set the color of your modal close icon.
+   @type color */
+$modal-close-color:                 #FFF;
