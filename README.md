@@ -55,7 +55,7 @@ You will then need to create a base CSS to load everything from. You can view an
 Override the Assemble defaults here
 */
 
-/* The other Assemble Components you are using
+/* The other Assemble Components you are using */
 @import '../node_modules/assemble-modals/assemble-modals';
 @import '../node_modules/assemble-buttons/assemble-buttons';
 ```
@@ -69,22 +69,22 @@ You can keep track of all your z-index layers here so it is easier to keep track
 
 ### PostCSS plugins
 There are a bunch of [PostCSS] plugins that come with Assemble Core. Here is the full list. None of these will add CSS to your markup until you use them. Please see their individual Github pages for usage instructions.
-[autoprefixer]
-[postcss-arrow-boxes]
-[postcss-at2x]
-[postcss-clearfix]
-[postcss-conditionals]
-[postcss-custom-media]
-[postcss-each]
-[postcss-font-magician]
-[postcss-hidden]
-[postcss-partial-import]
-[postcss-position]
-[postcss-responsive-type]
-[postcss-show-scrollbars]
-[postcss-simple-vars]
-[postcss-size]
-[postcss-zindex-order]
+- [autoprefixer]
+- [postcss-arrow-boxes]
+- [postcss-at2x]
+- [postcss-clearfix]
+- [postcss-conditionals]
+- [postcss-custom-media]
+- [postcss-each]
+- [postcss-font-magician]
+- [postcss-hidden]
+- [postcss-partial-import]
+- [postcss-position]
+- [postcss-responsive-type]
+- [postcss-show-scrollbars]
+- [postcss-simple-vars]
+- [postcss-size]
+- [postcss-zindex-order]
 
 ### A CSS Reset
 Here is the entire reset included with Assemble.
