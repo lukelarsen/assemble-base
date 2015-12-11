@@ -5,7 +5,7 @@
 [postcss-at2x]:            https://github.com/simonsmith/postcss-at2x
 [postcss-clearfix]:        https://github.com/seaneking/postcss-clearfix
 [postcss-conditionals]:    https://github.com/andyjansson/postcss-conditionals
-[postcss-constants]:       https://github.com/macropodhq/postcss-constants
+[postcss-map]:             https://github.com/pascalduez/postcss-map
 [postcss-custom-media]:    https://github.com/postcss/postcss-custom-media
 [postcss-each]:            https://github.com/outpunk/postcss-each
 [postcss-font-magician]:   https://github.com/jonathantneal/postcss-font-magician
@@ -16,7 +16,6 @@
 [postcss-show-scrollbars]: https://github.com/lukelarsen/postcss-show-scrollbars
 [postcss-simple-vars]:     https://github.com/postcss/postcss-simple-vars
 [postcss-size]:            https://github.com/postcss/postcss-size
-[postcss-zindex-order]:    https://github.com/lukelarsen/postcss-zindex-order
 [Assemble Buttons]:        https://github.com/lukelarsen/assemble-buttons
 [Assemble Code]:           https://github.com/lukelarsen/assemble-code
 [Assemble Forms]:          https://github.com/lukelarsen/assemble-forms
@@ -24,7 +23,7 @@
 [Assemble Lists]:          https://github.com/lukelarsen/assemble-lists
 [Assemble Media]:          https://github.com/lukelarsen/assemble-media
 [Assemble Modals]:         https://github.com/lukelarsen/assemble-modals
-[Assemble Navs]:            https://github.com/lukelarsen/assemble-navs
+[Assemble Navs]:           https://github.com/lukelarsen/assemble-navs
 [Assemble Notifications]:  https://github.com/lukelarsen/assemble-notifications
 [Assemble Tables]:         https://github.com/lukelarsen/assemble-tables
 [Assemble Tips]:           https://github.com/lukelarsen/assemble-tips
@@ -38,7 +37,7 @@ Assemble Core contains all the needed parts of the [Assemble] Framework. The Ass
 - [Assemble Lists]
 - [Assemble Media]
 - [Assemble Modals]
-- [Assemble Nav]
+- [Assemble Navs]
 - [Assemble Notifications]
 - [Assemble Tables]
 - [Assemble Tips]
