@@ -1,7 +1,7 @@
 {
-  "name": "assemble-core",
+  "name": "assemble-base",
   "version": "1.0.0",
-  "description": "Core parts to the Assemble CSS Framework.",
+  "description": "Base to the Assemble CSS Framework.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lukelarsen/assemble-core"
+    "url": "https://github.com/lukelarsen/assemble-base"
   },
   "dependencies": {
     "autoprefixer": "^6.0.0",

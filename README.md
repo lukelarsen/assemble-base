@@ -27,8 +27,8 @@
 [Assemble Tables]:         https://github.com/lukelarsen/assemble-tables
 [Assemble Tips]:           https://github.com/lukelarsen/assemble-tips
 
-# Assemble Core
-Assemble Core contains all the needed parts of the [Assemble] Framework. The Assemble Framework is a CSS framework that uses [PostCSS]. There are many optional components you can install to your project once Assemble Core as been added. Here is the full list of available components:
+# Assemble Base
+Assemble Base contains all the needed parts of the [Assemble] Framework. The Assemble Framework is a CSS framework that uses [PostCSS]. There are many optional components you can install to your project once Assemble Core as been added. Here is the full list of available components:
 - [Assemble Buttons]
 - [Assemble Code]
 - [Assemble Forms]
@@ -42,14 +42,14 @@ Assemble Core contains all the needed parts of the [Assemble] Framework. The Ass
 - [Assemble Tips]
 
 ## Installation
-npm install assemble-core --save-dev
+npm install assemble-base --save-dev
 
 ## Usage
 ### Gulp
 ```js
 var gulp = require('gulp');
 var postcss = require('gulp-postcss');
-var assembleCore = require('assemble-core');
+var assembleBase = require('assemble-base');
 
 gulp.task('css', function () {
     var processors = [
@@ -63,7 +63,7 @@ gulp.task('css', function () {
 
 You will then need to create a base CSS to load everything from. You can view an optional project structure set up at [Sample Assemble Project] or just follow the example below.
 ```css
-@import '../node_modules/assemble-core/core';
+@import '../node_modules/assemble-base/base';
 
 /*
 Override the Assemble defaults here

@@ -79,7 +79,7 @@ var processors = [
     }
 ];
 
-module.exports = postcss.plugin('assembleCore', function (opts) {
+module.exports = postcss.plugin('assembleBase', function (opts) {
     opts = assign({}, opts);
 
     var instance = postcss();
