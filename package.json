@@ -17,8 +17,6 @@
     "object-assign": "^4.0.1",
     "postcss": "^5.0.0",
     "postcss-arrow-boxes": "^1.0.0",
-    "postcss-assemble-notification-helper": "^1.0.0",
-    "postcss-assemble-table-helper": "^1.0.0",
     "postcss-at2x": "^2.0.0",
     "postcss-clearfix": "^0.2.0",
     "postcss-conditionals": "^2.0.0",

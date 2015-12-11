@@ -5,11 +5,10 @@
 [postcss-at2x]:            https://github.com/simonsmith/postcss-at2x
 [postcss-clearfix]:        https://github.com/seaneking/postcss-clearfix
 [postcss-conditionals]:    https://github.com/andyjansson/postcss-conditionals
-[postcss-map]:             https://github.com/pascalduez/postcss-map
-[postcss-custom-media]:    https://github.com/postcss/postcss-custom-media
 [postcss-each]:            https://github.com/outpunk/postcss-each
 [postcss-font-magician]:   https://github.com/jonathantneal/postcss-font-magician
 [postcss-hidden]:          https://github.com/lukelarsen/postcss-hidden
+[postcss-map]:             https://github.com/pascalduez/postcss-map
 [postcss-partial-import]:  https://github.com/jonathantneal/postcss-partial-import
 [postcss-position]:        https://github.com/seaneking/postcss-position
 [postcss-responsive-type]: https://github.com/seaneking/postcss-responsive-type
@@ -89,18 +88,16 @@ There are a bunch of [PostCSS] plugins that come with Assemble Core. Here is the
 - [postcss-at2x]
 - [postcss-clearfix]
 - [postcss-conditionals]
-- [postcss-constants]
-- [postcss-custom-media]
 - [postcss-each]
 - [postcss-font-magician]
 - [postcss-hidden]
+- [postcss-map]
 - [postcss-partial-import]
 - [postcss-position]
 - [postcss-responsive-type]
 - [postcss-show-scrollbars]
 - [postcss-simple-vars]
 - [postcss-size]
-- [postcss-zindex-order]
 
 ### A CSS Reset
 Here is the entire reset included with Assemble.
