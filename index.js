@@ -28,11 +28,6 @@ var processors = [
         defaults:  {}
     },
     {
-        plugin:    require('postcss-assemble-table-helper'),
-        namespace: 'tableHelper',
-        defaults:  {}
-    },
-    {
         plugin:    require('postcss-at2x'),
         namespace: 'at2x',
         defaults:  {}
