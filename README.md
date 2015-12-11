@@ -5,6 +5,7 @@
 [postcss-at2x]:            https://github.com/simonsmith/postcss-at2x
 [postcss-clearfix]:        https://github.com/seaneking/postcss-clearfix
 [postcss-conditionals]:    https://github.com/andyjansson/postcss-conditionals
+[postcss-constants]:       https://github.com/macropodhq/postcss-constants
 [postcss-custom-media]:    https://github.com/postcss/postcss-custom-media
 [postcss-each]:            https://github.com/outpunk/postcss-each
 [postcss-font-magician]:   https://github.com/jonathantneal/postcss-font-magician
@@ -17,10 +18,30 @@
 [postcss-size]:            https://github.com/postcss/postcss-size
 [postcss-zindex-order]:    https://github.com/lukelarsen/postcss-zindex-order
 [Assemble Buttons]:        https://github.com/lukelarsen/assemble-buttons
+[Assemble Code]:           https://github.com/lukelarsen/assemble-code
+[Assemble Forms]:          https://github.com/lukelarsen/assemble-forms
+[Assemble Icons]:          https://github.com/lukelarsen/assemble-icons
+[Assemble Lists]:          https://github.com/lukelarsen/assemble-lists
+[Assemble Media]:          https://github.com/lukelarsen/assemble-media
+[Assemble Modals]:         https://github.com/lukelarsen/assemble-modals
+[Assemble Navs]:            https://github.com/lukelarsen/assemble-navs
+[Assemble Notifications]:  https://github.com/lukelarsen/assemble-notifications
+[Assemble Tables]:         https://github.com/lukelarsen/assemble-tables
+[Assemble Tips]:           https://github.com/lukelarsen/assemble-tips
 
 # Assemble Core
 Assemble Core contains all the needed parts of the [Assemble] Framework. The Assemble Framework is a CSS framework that uses [PostCSS]. There are many optional components you can install to your project once Assemble Core as been added. Here is the full list of available components:
 - [Assemble Buttons]
+- [Assemble Code]
+- [Assemble Forms]
+- [Assemble Icons]
+- [Assemble Lists]
+- [Assemble Media]
+- [Assemble Modals]
+- [Assemble Nav]
+- [Assemble Notifications]
+- [Assemble Tables]
+- [Assemble Tips]
 
 ## Installation
 npm install assemble-core --save-dev
@@ -34,12 +55,7 @@ var assembleCore = require('assemble-core');
 
 gulp.task('css', function () {
     var processors = [
-        assembleCore({
-            zLayerValues: {
-                'modal': 9,
-                'tip': 10
-            }
-        })
+        assembleCore
     ];
     return gulp.src('./src/*.css')
         .pipe(postcss(processors))
@@ -74,6 +90,7 @@ There are a bunch of [PostCSS] plugins that come with Assemble Core. Here is the
 - [postcss-at2x]
 - [postcss-clearfix]
 - [postcss-conditionals]
+- [postcss-constants]
 - [postcss-custom-media]
 - [postcss-each]
 - [postcss-font-magician]

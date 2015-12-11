@@ -1,3 +1,12 @@
 @import 'css/reset';
-@import 'css/vars/modals';
 @import 'css/vars/buttons';
+@import 'css/vars/code';
+@import 'css/vars/forms';
+@import 'css/vars/icons';
+@import 'css/vars/lists';
+@import 'css/vars/media';
+@import 'css/vars/modals';
+@import 'css/vars/navs';
+@import 'css/vars/notifications';
+@import 'css/vars/tables';
+@import 'css/vars/tips';

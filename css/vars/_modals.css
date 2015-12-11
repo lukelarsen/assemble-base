@@ -22,7 +22,7 @@
 
 /* Set the overlay color for your modals.
    @type color */
-$modal-overlay-color:    rgba(0, 0, 0, 0.6);
+$modal-overlay-color:              rgba(0, 0, 0, 0.6);
 
 
 /**

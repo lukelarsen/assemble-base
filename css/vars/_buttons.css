@@ -59,7 +59,7 @@ $btn-disabled-text-color:                 #777;  /* Is only used if  border-colo
 
 /* Turn on/off large buttons for your application
    @type boolean */
-$btn--large:                        true;
+$btn--large:                        false;
 
 /* Turn on/off small buttons for your application
    @type boolean */

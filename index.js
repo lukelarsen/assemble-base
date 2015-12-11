@@ -18,18 +18,13 @@ var processors = [
         defaults:  {}
     },
     {
+        plugin:    require('postcss-map'),
+        namespace: 'map',
+        defaults:  {}
+    },
+    {
         plugin:    require('postcss-arrow-boxes'),
         namespace: 'arrowBoxes',
-        defaults:  {}
-    },
-    {
-        plugin:    require('postcss-assemble-modal-helper'),
-        namespace: 'modalHelper',
-        defaults:  {}
-    },
-    {
-        plugin:    require('postcss-assemble-notification-helper'),
-        namespace: 'notificationHelper',
         defaults:  {}
     },
     {
@@ -53,15 +48,10 @@ var processors = [
         defaults:  {}
     },
     {
-        plugin:    require('postcss-custom-media'),
-        namespace: 'media',
+        plugin:    require('postcss-font-magician'),
+        namespace: 'fontMagician',
         defaults:  {}
     },
-    // {
-    //     plugin:    require('postcss-font-magician'),
-    //     namespace: 'fontMagician',
-    //     defaults:  {}
-    // },
     {
         plugin:    require('postcss-hidden'),
         namespace: 'hidden',
@@ -85,11 +75,6 @@ var processors = [
     {
         plugin:    require('postcss-size'),
         namespace: 'size',
-        defaults:  {}
-    },
-    {
-        plugin:    require('postcss-zindex-order'),
-        namespace: 'zindexOrder',
         defaults:  {}
     }
 ];

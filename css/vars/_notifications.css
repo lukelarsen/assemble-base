@@ -1,0 +1,67 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  DESIGN VARIABLES
+ *  MODIFIER VARIABLES
+        Notification Position
+        Notification Colors
+ */
+
+
+
+
+
+/*------------------------------------*\
+    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/* Set the notification width.
+   @type number */
+$notification-width:                315px;
+
+/* Set the notificaiton font size.
+   @type number */
+$notification-font-size:            0.8rem;
+
+/* Set notification padding.
+   @type number */
+$notification-padding:              7px 15px;
+
+/* Set the notification close color.
+   @type color */
+$notification-close-color:          #FFF;
+
+/* Set the notification close hover color.
+   @type color */
+$notification-close-color-hover:    #000;
+
+/* Set the space the notification will appear from the edge of the browser.
+   @type number */
+$notification-space-from-edge:      20px;
+
+
+
+/*------------------------------------*\
+    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Notification Position
+ */
+
+/* Turn on/off notifications in the bottom right.
+   @type boolean */
+$notification-bottom-right:         false;
+
+/* Turn on/off notifications in the bottom left.
+   @type boolean */
+$notification-bottom-left:          false;
+
+/* Turn on/off notifications in the top right.
+   @type boolean */
+$notification-top-right:            false;
+
+/* Turn on/off notifications in the top left.
+   @type boolean */
+$notification-top-left:             false;
