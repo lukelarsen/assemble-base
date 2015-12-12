@@ -122,6 +122,7 @@ z-index: map(constants, zIndexes, modalInner);
 This returns
 ```css
 z-index: -1;
+```
 
 ## What comes with Assemble?
 
