@@ -61,7 +61,7 @@ gulp.task('css', function () {
 });
 ```
 
-You will then need to create a base CSS to load everything from. You can view an optional project structure set up at [Sample Assemble Project] or just follow the example below.
+You will then need to create a base CSS to load everything from. You can structure your app however you like. Just make sure your css imports are in this order.
 ```css
 @import '../node_modules/assemble-base/base';
 
@@ -72,12 +72,56 @@ Override the Assemble defaults here
 /* The other Assemble Components you are using */
 @import '../node_modules/assemble-modals/assemble-modals';
 @import '../node_modules/assemble-buttons/assemble-buttons';
+
+/* The rest of your css and/or imports. */
 ```
 
 ## Options
 
-### z-index
-You can keep track of all your z-index layers here so it is easier to keep track of them. See above example and [postcss-zindex-order] for samples.
+### Constants
+You can load a constants file where you can use json to define things. Then refer to them in your css. In gulp tell us where your file is and what it is called. This uses [postcss-map].
+```js
+gulp.task('css', function () {
+    var processors = [
+        assembleBase({
+            basePath: 'stylesheets/',
+            maps: [ 'constants.json' ]
+        })
+    ];
+
+    return gulp.src('./stylesheets/screen.css')
+        .pipe(postcss(processors))
+        .pipe(gulp.dest('./dest'));
+});
+```
+Sample Constants file
+```js
+{
+    "zIndexes": {
+        "modal": 99,
+        "modalInner": -1,
+        "modalInnerVisible": 100,
+        "modalClose": 2,
+        "notification": 10,
+        "tip": 11,
+    },
+    "mediaQueries": {
+        "palm": "only screen and (max-width: 480px)",
+        "lap": "only screen and (min-width: 481px) and (max-width: 1023px)",
+        "lapAndUp": "only screen and (min-width: 481px)",
+        "portable": "only screen and (max-width: 1023px)",
+        "desk": "only screen and (max-width: 1024px)",
+        "wide": "only screen and (min-width:1500px)"
+    }
+}
+```
+Usage in css
+```css
+z-index: map(constants, zIndexes, modalInner);
+```
+This returns
+```css
+z-index: -1;
 
 ## What comes with Assemble?
 
