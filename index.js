@@ -71,6 +71,11 @@ var processors = [
         plugin:    require('postcss-size'),
         namespace: 'size',
         defaults:  {}
+    },
+    {
+        plugin:    require('autoprefixer'),
+        namespace: 'autoprefixer',
+        defaults:  {}
     }
 ];
 
