@@ -1,6 +1,6 @@
 {
   "name": "assemble-base",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Base to the Assemble CSS Framework.",
   "main": "index.js",
   "scripts": {
