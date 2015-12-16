@@ -26,9 +26,14 @@
 /**
  * ^Defaults
  */
+
 /* Text color of a form item.
    @type color */
 $form-text-color:             #00F;
+
+/* Label color of a form item.
+   @type color */
+$form-label-color:             #00F;
 
 /**
  * ^Push Bottom
