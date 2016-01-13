@@ -31,15 +31,23 @@ $modal-overlay-color:              rgba(0, 0, 0, 0.6);
 
 /* Set the header padding for your modals.
    @type number */
-$modal-header-padding:             15px;
+$modal-header-padding:             0 30px;
 
-/* Set the inner padding for your modals.
+/* Set the header padding for your modals.
    @type number */
-$modal-inner-padding:              15px;
+$modal-body-padding:               0 30px;
 
-/* Set the max height of the content area. Keep the calc function in for better results.
+/* Set the header padding for your modals.
    @type number */
-$modal-content-max-height:         calc(100% - 265px);
+$modal-footer-padding:             30px;
+
+/* Set the max height for the .modal-body__inner div.
+   @type number */
+$modal-body-height:               400px;
+
+/* Set margin-bottom for the .modal-body__inner div.
+   @type number */
+$modal-body-margin-bottom:        78px;
 
 /* Set the inner background color for your modals.
    @type color */
