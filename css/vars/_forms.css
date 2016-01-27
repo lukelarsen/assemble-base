@@ -140,6 +140,10 @@ $form-icon-padding-side:            38px;
    @type boolean */
 $customize-webkit-forms:            true;
 
+/* A unit value for padding right on webkit selects.
+   @type number */
+$webkit-select-padding-right:       30px;
+
 /* A specific file to use as the down arrow on Webkit select boxes.
    @type string */
 $webkit-select-arrow:               url('../images/select-arrow.svg');
