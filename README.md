@@ -26,6 +26,7 @@
 [Assemble Notifications]:  https://github.com/lukelarsen/assemble-notifications
 [Assemble Tables]:         https://github.com/lukelarsen/assemble-tables
 [Assemble Tips]:           https://github.com/lukelarsen/assemble-tips
+[Assemble Grids]:          https://github.com/lukelarsen/postcss-assemble-grids
 
 # Assemble Base
 Assemble Base contains all the needed parts of the [Assemble] Framework. The Assemble Framework is a CSS framework that uses [PostCSS]. There are many optional components you can install to your project once Assemble Core as been added. Here is the full list of available components:
