@@ -41,6 +41,7 @@ Assemble Base contains all the needed parts of the [Assemble] Framework. The Ass
 - [Assemble Notifications]
 - [Assemble Tables]
 - [Assemble Tips]
+- [Assemble Grids]
 
 ## Installation
 npm install assemble-base --save-dev
