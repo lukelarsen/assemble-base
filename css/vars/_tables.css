@@ -61,6 +61,39 @@ $table-border-color:                #999;
 $table-border-size:                 1px;
 
 
+/**
+ * ^Sorting
+ */
+
+/* Set table sorting none image.
+   @type string */
+$table-sort-none-image:              url('../images/table-sort-none.svg');
+
+/* Set table sorting desc image.
+   @type string */
+$table-sort-desc-image:              url('../images/table-sort-desc.svg');
+
+/* Set table sorting asc image.
+   @type string */
+$table-sort-asc-image:              url('../images/table-sort-asc.svg');
+
+/* Set table sorting image right position.
+   @type number */
+$table-sort-right-pos:              12px;
+
+/* Set table sorting image top position.
+   @type number */
+$table-sort-top-pos:                12px;
+
+/* Set table sorting desc background color.
+   @type string */
+$table-sort-desc-bg-color:          black;
+
+/* Set table sorting asc background color.
+   @type number */
+$table-sort-asc-bg-color:           black;
+
+
 
 
 
@@ -122,3 +155,14 @@ $table--responsive-breakpoint:      only screen and (max-width: 480px);
    If set to true you can use the class .table--row-hover.
    @type boolean */
 $table--row-hover:                  false;
+
+
+/**
+ * ^Sort
+ */
+
+/* Turn on/off tables with columns that can be sorted.
+   If set to true you can use the class .table--sort.
+   No javascript is included for this.
+   @type boolean */
+$table--sort:                       false;
