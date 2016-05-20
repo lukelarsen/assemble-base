@@ -132,7 +132,7 @@ $tip-enable-right:                  false;
 
 /* Set how far from the right the right tips should be.
    @type number */
-$tip-right-right-position:          calc(-$tip-width - 8);
+$tip-right-right-position:          calc(-$tip-width - 8px);
 
 /* Set how far from the top the right tips should be.
    @type number */
@@ -144,7 +144,7 @@ $tip-enable-left:                   false;
 
 /* Set how far from the left the left tips should be.
    @type number */
-$tip-left-left-position:            calc(-$tip-width - 33);
+$tip-left-left-position:            calc(-$tip-width - 33px);
 
 /* Set how far from the top the left tips should be.
    @type number */
